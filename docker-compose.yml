@@ -31,7 +31,7 @@ services:
       postgres:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      - "3001:3000"
     environment:
       DATABASE_URL: "postgresql://pulsedesk:pulsedesk_secret@postgres:5432/pulsedesk?schema=public"
       JWT_SECRET: "pulsedesk-super-secret-jwt-signing-key-2026"
