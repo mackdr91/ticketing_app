@@ -1,0 +1,16 @@
+# Author: Domonick Mack
+# Date: 2026-11-15
+# Description: Docker ignore rules to keep image build context small and exclude local artifacts.
+
+node_modules
+.next
+.git
+.gitignore
+README.md
+.env
+.env.*
+!.env.example
+uploads
+coverage
+npm-debug.log*
+.DS_Store

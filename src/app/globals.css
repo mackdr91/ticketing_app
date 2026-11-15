@@ -1,0 +1,17 @@
+/**
+ * Author: Domonick Mack
+ * Date: 2026-11-15
+ * Description: Global stylesheet configuring Tailwind CSS v4 and Slate/Indigo Dark & Light theme variables.
+ */
+
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
